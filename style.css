@@ -16,11 +16,20 @@
         width: 250px !important;
     }
     .custom-logo-image-footer{
-        margin-left: 3%;
+        margin-left: 20%;
         height: 30px;
         width: 150px;   
         margin-top: 15px;
     }
+    .icon-width{
+        min-width: 170px;
+    }
+}
+@media screen and (max-device-width:495px) { 
+    .icon-width{
+        min-width: 70px;
+    }
+    
 }
 @media screen and (min-device-width: 576px) and (max-device-width:767px) { 
     /* STYLES HERE */
@@ -130,7 +139,7 @@ a:hover{
     }
 
 .header-background-image{
-background-image: url("bg2.jpg");
+background-image: url("image/backroundg-image.jpg");
 height: 500px;
 background-repeat: no-repeat;
 background-size: cover;
@@ -177,7 +186,14 @@ background-size: cover;
     bottom: -20px;
     padding:2px;
 }
-
+.breadcrumb-alignment{
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+.breadcrumb{
+    height: 27px !important;
+}
 .bage-start-margin{
     height: 54px;
     width: 54px;
@@ -216,10 +232,15 @@ background-size: cover;
 .fa-hand-grab-o{
     color: thistle;
 }
-
+.icon-width{
+    max-width: 50px;
+}
+.comapny-info-data{
+    max-height: 20px;
+}
 .team-section-background-image{
-    background-image: url("bgteam.jpg");
-    height: 450px;
+    background-image: url("image/bgteam.jpg");
+    height: auto;
 background-repeat: no-repeat;
 background-size: cover;
 }
